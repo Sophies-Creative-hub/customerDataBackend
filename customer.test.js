@@ -1,7 +1,6 @@
 import request from 'supertest';
 import { app, server, db } from './index';
 import { Customer } from './Customer';
-import { v4 as uuidv4 } from 'uuid';
 
 
 const testCustomer = new Customer(
